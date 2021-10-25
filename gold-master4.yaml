@@ -1,0 +1,12 @@
+proxies:
+- name: "master4"
+  type: trojan
+  server: 123.123.123.123
+  port: 443
+  password: isikansandi
+  udp: true
+  sni: www.isikanbug.com
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
