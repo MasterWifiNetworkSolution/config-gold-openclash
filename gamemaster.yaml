@@ -1,0 +1,69 @@
+payload:  
+  
+  # > Battle
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+  
+  # > Riot Games
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,wr.pvp.net
+  - DOMAIN-SUFFIX,riotgames.com
+
+  # > SoftLayer
+  - IP-CIDR,74.86.0.0/16,no-resolve
+  - IP-CIDR,75.126.0.0/16,no-resolve
+  - IP-CIDR,174.37.0.0/16,no-resolve
+  - IP-CIDR,208.43.0.0/16,no-resolve
+  
+  # > Tencent
+  # USER-AGENT,MicroMessenger*
+  # USER-AGENT,WeChat*
+  # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,idqqimg.com
+  - DOMAIN-SUFFIX,igamecj.com
+  - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencent-cloud.com
+  - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN,file-igamecj.akamaized.net
+  - IP-CIDR,101.32.104.4/32,no-resolve
+  - IP-CIDR,101.32.104.41/32,no-resolve
+  - IP-CIDR,101.32.104.56/32,no-resolve
+  - IP-CIDR,101.32.118.25/32,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,203.205.254.0/23,no-resolve
+
+  # MOBILE LEGENDS
+  - IP-CIDR,163.171.64.0/18,no-resolve
+  - IP-CIDR,163.171.128.0/17,no-resolve
+
+  # PUBG MOBILE
+  - IP-CIDR,99.87.128.0/18,no-resolve
+  - IP-CIDR,99.85.128.0/17,no-resolve
+  - IP-CIDR,99.86.0.0/16
+  - IP-CIDR,99.87.0.0/17
+
+  # FREE FIRE dan AOV
+  - IP-CIDR,164.52.0.0/17
+  - IP-CIDR,150.109.0.0/19
+
+  # EFOOTBALL 2022 KONAMI
+  - IP-CIDR,133.221.0.0/16
+
+  # GROWTOPIA
+  - IP-CIDR,3.128.0.0/9
+
+  # RF ONLINE
+  - IP-CIDR,202.93.16.0/21
